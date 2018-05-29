@@ -1,13 +1,63 @@
+body{
+    background: white;
+}
+.box{
+    background-color: white;
+    height: 90%;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 2px 2px;
+    max-width: 100%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 h1{
     color: red;
+    text-align: center;
+    margin-top: 2vw;
+    size: 5vw;
 }
 .button{
     display: inline;
 }
 .inline{
     display: inline;
-    margin-left: 2%
+    margin-left: 2vw;
 }
-.breakLength{
-    
+.break{
+    margin-left: 10%;
+    font-size: 2vw;
+    margin-right: 6vw;
+    margin-top: 0.2vw;
+    color: green;
+    text-align: left;
+    position: absolute;
+}
+.session{
+    display: inline-block;
+    margin-left: 35vw;
+    color: green;
+    font-size: 2vw;
+    position: absolute;
+}
+.start-timer{
+   position:absolute;
+   margin-left:40%;
+   bottom:2vw;
+   width:10vw;
+   height:4vw;
+   color: red;
+   font-size: 2vw;
+}
+#countdown-timer{
+   position:absolute;
+   margin-left:43%;
+   bottom: 45%;
+   width:10vw;
+   height:4vw;
+   font-size: 4vw;
 }
