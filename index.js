@@ -28,10 +28,12 @@ $(document).ready(function () {
 
     function startBreak() {
         createClock($('#session-break').html() * 60, $('#countdown-timer'), startSessionLength);
+        $("#box").css("background-color", "#efffef");
     }
 
     function startSessionLength() {
         createClock($('#session-length').html() * 60, $('#countdown-timer'), startBreak);
+        $("#box").css("background-color", "#ffefef");
     }
 
     function startClock() {
@@ -40,6 +42,7 @@ $(document).ready(function () {
             $('body').append("<div id='countdown-timer'></div>");
             countdownTime = 60 * finalSessionLength;
             clearInterval(countdown);
+            $("#box").css("background-color", "#ffefef");
             createClock(countdownTime, $('#countdown-timer'), startBreak);
         });
 

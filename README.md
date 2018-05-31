@@ -42,4 +42,28 @@ This is a project build using JavaScript
 	- implemet the CSS;
 3. ##### I am blocked: 
 
+#### 28.05.2018
+1. ##### What I've learned today:
+	- learn the Git Flow;
+	- create a plan for the CSS;
+2. ##### Tomorrow I want to:
+	-start implementing the CSS;
+3. ##### I am blocked: 
+
+#### 29.05.2018
+1. ##### What I've learned today:
+	- remainded to work in CSS;
+	- arrange items in page;
+2. ##### Tomorrow I want to:
+	- continue to work on CSS;
+
+#### 31.05.2018
+1. ##### What I've learned today:
+	- to change the background of an element in jquery;
+	- design circles in css;
+2. ##### Tomorrow I want to:
+	- add a circle that will change the color;
+	- finish CSS;
+3. ##### I am blocked: 
+
 
