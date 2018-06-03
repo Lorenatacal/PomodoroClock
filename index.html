@@ -12,19 +12,21 @@
     <script src="./index.js"></script>
     <link rel="stylesheet" type="text/css" href="./index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Song+Myung" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>
 
 <body>
 
     <body>
         <div id="box" class="box">
-            <h1>Pomodoro Clock</h1>
+            <h1 class="title">Pomodoro Clock</h1>
             <div class="inline">
                 <p class="break"> Break Length
                     <span></span>
-                    <button id="minus-break">-</button>
+                    <button id="minus-break" class="button">-</button>
                     <span id="session-break"></span>
-                    <button id="plus-break">+</button>
+                    <button id="plus-break" class="button">+</button>
                 </p>
             </div>
             <div id="countdown-break"></div>
@@ -32,9 +34,9 @@
             <div class="inline">
                 <p class="session"> Session Length
                     <span></span>
-                    <button id="minus-length">-</button>
+                    <button id="minus-length"class="button">-</button>
                     <span id="session-length"></span>
-                    <button id="plus-length">+</button>
+                    <button id="plus-length"class="button">+</button>
                 </p>
             </div>
             <div id="countdown-timer"></div>

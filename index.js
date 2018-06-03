@@ -28,21 +28,21 @@ $(document).ready(function () {
 
     function startBreak() {
         createClock($('#session-break').html() * 60, $('#countdown-timer'), startSessionLength);
-        $("#box").css("background-color", "#efffef");
+        $('#countdown-timer').css("background-color", "#509b54");
     }
 
     function startSessionLength() {
         createClock($('#session-length').html() * 60, $('#countdown-timer'), startBreak);
-        $("#box").css("background-color", "#ffefef");
+        $('#countdown-timer').css("background-color", "#ff4428");
     }
 
     function startClock() {
         $('.start-timer').on('click', function () {
             paused = false;
-            $('body').append("<div id='countdown-timer'></div>");
+            $('body').append();
             countdownTime = 60 * finalSessionLength;
             clearInterval(countdown);
-            $("#box").css("background-color", "#ffefef");
+            $('#countdown-timer').css("background-color", "#ff4428");
             createClock(countdownTime, $('#countdown-timer'), startBreak);
         });
 
